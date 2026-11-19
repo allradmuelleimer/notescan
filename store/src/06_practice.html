@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="store.css">
+<style>
+body { background: radial-gradient(800px 700px at 50% 85%, rgba(130,151,255,.22), transparent 70%), var(--night); }
+.txt { position: absolute; left: 80px; right: 80px; top: 120px; }
+.txt .sub { margin-top: 30px; }
+.phone { --w: 560px; left: 260px; top: 700px; }
+.phone .screen { background: var(--night); }
+.f { position: absolute; z-index: 5; display: flex; align-items: center; gap: 18px; padding: 24px 34px; border-radius: 30px; font-weight: 600; font-size: 32px;
+  color: var(--nink); background: rgba(33,37,45,.92); backdrop-filter: blur(10px); box-shadow: 0 30px 60px rgba(0,0,0,.45), inset 0 0 0 2px #2f3440; }
+.f svg { width: 40px; height: 40px; fill: none; stroke: var(--accent-lt); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+</style></head><body class="on-dark">
+<div class="txt">
+  <div class="probadge">Included in NoteScan Pro</div>
+  <div class="h">Practice one hand<br><span class="hl">at a time.</span></div>
+  <div class="sub">Loop any bars and change the tempo.</div>
+</div>
+<div class="phone dark" data-shot="img/play_dark.png"></div>
+<div class="f" style="left:40px; top:1150px"><svg viewBox="0 0 24 24"><path d="M18 11V6a2 2 0 0 0-4 0M14 10V4a2 2 0 0 0-4 0v2M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.9-6-2.4l-3.6-3.6a2 2 0 0 1 2.8-2.8L7 15"/></svg>Left / right hand on or off</div>
+<div class="f" style="right:40px; top:1390px"><svg viewBox="0 0 24 24"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg>Loop any bars</div>
+<div class="f" style="left:60px; top:1630px"><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M10 2h4"/></svg>Tempo up or down</div>
+<script src="store.js"></script></body></html>

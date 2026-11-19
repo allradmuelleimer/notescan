@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="store.css">
+<style>
+body { background: #F4F2EE; }
+.txt { position: absolute; left: 80px; right: 80px; top: 120px; }
+.txt .sub { margin-top: 30px; }
+.lbl { position: absolute; left: 80px; font-weight: 600; font-size: 26px; letter-spacing: 4px; text-transform: uppercase; color: var(--ink2); }
+.card { position: absolute; left: 60px; right: 60px; border-radius: 36px; overflow: hidden; box-shadow: 0 40px 90px rgba(40,30,10,.18); }
+.paper { top: 760px; height: 560px; background: #ece9e2; }
+.paper img { width: 100%; height: 100%; object-fit: cover; object-position: left 75%; display: block; }
+.app { top: 1490px; height: 360px; background: var(--bg); box-shadow: 0 40px 90px rgba(20,24,60,.2), 0 0 0 3px var(--accent); }
+.app img { width: 100%; height: 100%; object-fit: cover; object-position: right top; display: block; }
+.arrow { position: absolute; left: 50%; top: 1340px; width: 110px; height: 110px; margin-left: -55px; border-radius: 50%; background: var(--accent);
+  display: grid; place-items: center; box-shadow: 0 16px 40px rgba(43,75,219,.4); z-index: 3; }
+.arrow svg { width: 54px; height: 54px; stroke: #fff; stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+</style></head><body>
+<div class="txt">
+  <div class="h">Keeps your<br><span class="hl">pencil markings.</span></div>
+  <div class="sub">Circled fingerings and written-in accidentals show up in the score.</div>
+</div>
+<div class="lbl" style="top:712px">On paper</div>
+<div class="card paper"><img src="img/pencil_paper.jpg"></div>
+<div class="arrow"><svg viewBox="0 0 24 24"><path d="M12 4v16M5 13l7 7 7-7"/></svg></div>
+<div class="lbl" style="top:1442px; color: var(--accent)">In NoteScan</div>
+<div class="card app"><img src="img/pencil_app.png"></div>
+<script src="store.js"></script></body></html>

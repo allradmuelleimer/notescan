@@ -1,0 +1,182 @@
+<resources>
+    <!-- Grundsprache Englisch: gilt für jede Systemsprache ohne eigene Übersetzung. -->
+    <string name="app_name" translatable="false">NoteScan</string>
+
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="more_actions">More actions</string>
+    <string name="settings">Settings</string>
+    <string name="licenses">Licenses</string>
+
+    <!-- Bibliothek -->
+    <string name="library_empty_count">No pieces yet</string>
+    <plurals name="pieces">
+        <item quantity="one">%d piece</item>
+        <item quantity="other">%d pieces</item>
+    </plurals>
+    <string name="menu_open_pdf">Open PDF file</string>
+    <string name="menu_open_musicxml">Open MusicXML file</string>
+    <string name="menu_light">Light theme</string>
+    <string name="menu_dark">Dark theme</string>
+    <string name="take_photo">Photograph sheet music</string>
+    <string name="pick_gallery">Choose photo from gallery</string>
+    <string name="empty_title">Lay a sheet of music flat and photograph it from above.</string>
+    <string name="empty_body">The app reads the notes right on your phone, without internet, and plays them for you with a grand piano sound. To fix a mistake, just tap the note.</string>
+    <plurals name="measures">
+        <item quantity="one">%d bar</item>
+        <item quantity="other">%d bars</item>
+    </plurals>
+    <string name="settings_bars_per_line">Bars per line</string>
+    <string name="settings_always_2">Always 2</string>
+    <string name="settings_2_or_3">2 or 3</string>
+    <string name="settings_always_2_desc">Every line shows two bars – evenly throughout the piece.</string>
+    <string name="settings_2_or_3_desc">Follows the lines of the sheet: two or three bars per line.</string>
+
+    <!-- Kamera -->
+    <string name="photo_of_page">Photo of the page</string>
+    <string name="camera_needed">The app needs the camera to take photos.</string>
+    <string name="camera_allow">Allow camera</string>
+    <string name="capture_page">Page %1$d</string>
+    <string name="capture_page_count">Page %1$d · %2$d taken</string>
+    <string name="retake">Retake</string>
+    <string name="add_page">Add page</string>
+
+    <!-- Lizenzen (Namen und Lizenzbezeichnungen bleiben unübersetzt) -->
+    <string name="lic_piano_title">Grand piano sound</string>
+    <string name="lic_piano">Salamander Grand Piano V3 by Alexander Holm, licensed CC BY 3.0. Shortened for the app and converted to OGG.</string>
+    <string name="lic_omr_title">Music recognition</string>
+    <string name="lic_omr">homr by Christian Liebhardt and contributors, licensed AGPL-3.0. Segmentation based on oemer (MIT).</string>
+    <string name="lic_music_font_title">Music font</string>
+    <string name="lic_music_font">Bravura by Steinberg Media Technologies, SIL Open Font License 1.1.</string>
+    <string name="lic_font_title">Typeface</string>
+    <string name="lic_font">Instrument Sans by Rodrigo Fuenzalida and Jordan Egstad, SIL Open Font License 1.1.</string>
+
+    <!-- Stück -->
+    <string name="view_score">Score</string>
+    <string name="view_photo">Photo</string>
+    <string name="rename">Rename</string>
+    <string name="discard_edits">Discard corrections</string>
+    <string name="discard_body">All corrections to this piece will be undone. The recognized notes, fingerings and chord symbols return as they were after scanning.</string>
+    <string name="discard">Discard</string>
+    <string name="show_original_photo">Show original photo</string>
+    <string name="brighten_photo">Brighten photo</string>
+    <string name="hide_annotations">Hide annotations</string>
+    <string name="show_annotations">Show annotations</string>
+    <string name="delete_piece">Delete piece</string>
+    <string name="loop_pick_first">Tap the first bar of the loop.</string>
+    <string name="loop_pick_last">Now tap the last bar.</string>
+    <string name="to_start">Back to start</string>
+    <string name="loop">Loop</string>
+    <string name="metronome">Click</string>
+    <string name="rename_title">Rename piece</string>
+    <string name="save">Save</string>
+    <string name="delete_title">Delete “%1$s”?</string>
+    <string name="delete_body">Photo, recognized notes and corrections will be removed.</string>
+    <string name="delete">Delete</string>
+    <string name="keep">Keep</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="left_hand">Left hand</string>
+    <string name="right_hand">Right hand</string>
+    <string name="hand_mute">Mute %1$s</string>
+    <string name="hand_unmute">Unmute %1$s</string>
+    <string name="hand_left_short">Left</string>
+    <string name="hand_right_short">Right</string>
+    <string name="hand_muted">muted</string>
+    <string name="slower">Slower</string>
+    <string name="faster">Faster</string>
+    <string name="tempo_from_sheet">Tempo from the sheet</string>
+    <string name="original_photo">Original photo</string>
+
+    <!-- Korrektur -->
+    <string name="rest">Rest</string>
+    <string name="dotted_fmt">dotted %1$s</string>
+    <string name="note_whole">whole note</string>
+    <string name="note_half">half note</string>
+    <string name="note_quarter">quarter note</string>
+    <string name="note_eighth">eighth note</string>
+    <string name="note_sixteenth">sixteenth note</string>
+    <string name="note_32nd">32nd note</string>
+    <plurals name="chord_notes">
+        <item quantity="one">chord with %d note</item>
+        <item quantity="other">chord with %d notes</item>
+    </plurals>
+    <string name="right_hand_lower">right hand</string>
+    <string name="left_hand_lower">left hand</string>
+    <string name="step_up">One step higher</string>
+    <string name="step_down">One step lower</string>
+    <string name="acc_flat">Flat</string>
+    <string name="acc_natural">No accidental</string>
+    <string name="acc_sharp">Sharp</string>
+    <string name="dotted">Dotted</string>
+    <string name="insert_note">Insert note</string>
+    <string name="add_note">Add note</string>
+    <string name="remove_note">Remove note</string>
+    <string name="make_rest">Turn into rest</string>
+    <string name="accent">Accent</string>
+    <string name="tie">Tie</string>
+    <string name="undo">Undo</string>
+    <string name="octave_up">One octave higher</string>
+    <string name="octave_down">One octave lower</string>
+    <string name="move_earlier">Earlier</string>
+    <string name="move_later">Later</string>
+    <string name="other_hand">Other hand</string>
+    <string name="edit_hint">Hold a note and slide up or down to change its pitch. Hold an empty spot on the staff to add a note there.</string>
+    <string name="redo">Redo</string>
+    <string name="measure_missing">%1$s: %2$s missing</string>
+    <string name="measure_extra">%1$s: %2$s too much</string>
+    <string name="pedal_down">Pedal down</string>
+    <string name="pedal_up">Pedal up</string>
+
+    <!-- Erkennung -->
+    <string name="photographed_sheet">Photographed sheet music</string>
+    <string name="rec_failed">That didn’t work</string>
+    <string name="try_again">Try again</string>
+    <string name="reading_notes">Reading notes</string>
+    <string name="reading_notes_page">Reading notes · %1$s</string>
+    <plurals name="heads_found">
+        <item quantity="one">%1$d noteheads found in %2$d line</item>
+        <item quantity="other">%1$d noteheads found in %2$d lines</item>
+    </plurals>
+    <string name="progress_of">%1$d of %2$d</string>
+    <string name="rec_hint">Takes about a minute. Everything stays on your phone.</string>
+    <string name="rec_hint_pages">Takes about a minute per page. Everything stays on your phone.</string>
+    <string name="phase_prepare">Preparing the photo</string>
+    <string name="phase_segment">Finding staff lines and symbols</string>
+    <string name="phase_staffs">Ordering the staves</string>
+    <string name="phase_read">Reading notes</string>
+    <string name="phase_write">Assembling the piece</string>
+    <string name="page_of">Page %1$d of %2$d</string>
+    <plurals name="pages_skipped">
+        <item quantity="one">Page %1$s has no recognizable notes and was skipped.</item>
+        <item quantity="other">Pages %1$s have no recognizable notes and were skipped.</item>
+    </plurals>
+    <string name="untitled_fmt">Sheet music from %1$s</string>
+
+    <!-- Fehler -->
+    <string name="err_generic_short">Something went wrong while reading the notes. Please try again.</string>
+    <string name="err_no_notes">No notes were found in the photo. Photograph the sheet straight from above in good light.</string>
+    <string name="err_staff">The staves couldn’t be detected reliably. A sharper, straighter photo usually helps.</string>
+    <string name="err_memory">There wasn’t enough memory for this photo. Please close other apps and try again.</string>
+    <string name="err_generic">Something went wrong while reading the notes. Please try again – a straight, well-lit photo helps.</string>
+    <string name="err_16k">Music recognition can’t run on this device yet: it uses 16 KB memory pages, for which the required image-processing components don’t exist yet. Pieces already recognized and MusicXML files can still be played.</string>
+    <string name="err_pdf">The PDF file couldn’t be opened.</string>
+    <string name="err_camera">The camera couldn’t be started.</string>
+    <string name="err_photo_save">The photo couldn’t be saved.</string>
+
+    <!-- NoteScan Pro -->
+    <string name="pro_title" translatable="false">NoteScan Pro</string>
+    <string name="pro_lead">One-time purchase, no subscription. Scanning, playback and corrections stay free.</string>
+    <string name="pro_f_pages">Several pages in a row and PDF files</string>
+    <string name="pro_f_hands">Mute one hand</string>
+    <string name="pro_f_loop">Loop bars</string>
+    <string name="pro_f_tempo">Change the tempo, use the metronome</string>
+    <string name="pro_buy">Unlock for %1$s</string>
+    <string name="pro_buy_noprice">Unlock</string>
+    <string name="pro_restore">Restore purchase</string>
+    <string name="pro_later">Not now</string>
+    <string name="pro_unavailable">The purchase is only available through Google Play.</string>
+    <string name="pro_none_found">No purchase found for this Google account.</string>
+    <string name="pro_thanks">NoteScan Pro is unlocked. Thank you!</string>
+</resources>

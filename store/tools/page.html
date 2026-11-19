@@ -1,0 +1,22 @@
+<html><head><style>
+body{margin:0;width:2100px;height:2970px;background:#fff;position:relative;overflow:hidden}
+#score{position:absolute;left:270px;top:40px;width:1560px}
+.comp{position:absolute;right:270px;top:168px;font:italic 34px "Times New Roman";color:#111}
+.pen{position:absolute;font-family:"Ink Free";font-weight:bold;color:#55575c;opacity:.85;filter:url(#grain)}
+svg.marks{position:absolute;left:0;top:0;width:2100px;height:2970px}
+svg.marks path, svg.marks ellipse{fill:none;stroke:#4c4e53;stroke-linecap:round;opacity:.9}
+</style></head><body>
+<svg width="0" height="0"><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="1.6" numOctaves="2" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.4 1.25" result="m"/><feComposite in="SourceGraphic" in2="m" operator="in"/></filter></svg>
+<img id="score" src="fuer_elise.svg">
+
+<svg class="marks" viewBox="0 0 2100 2970">
+<!-- eingekreiste Fingersätze -->
+<path d="M1490 229 C 1458 231, 1453 257, 1458 277 C 1468 298, 1504 297, 1517 272 C 1519 244, 1498 225, 1472 239" stroke-width="6.5" filter="url(#grain)"/>
+<path d="M1267 1788 C 1234 1790, 1230 1818, 1235 1839 C 1245 1861, 1281 1860, 1294 1834 C 1296 1804, 1275 1784, 1250 1798" stroke-width="6.5" filter="url(#grain)"/>
+<!-- Kreuz als Erinnerung über dem Dis in Takt 4 -->
+<path d="M1688 160 C 1686 180, 1684 200, 1683 222" stroke-width="5.5" filter="url(#grain)"/>
+<path d="M1706 156 C 1704 178, 1702 198, 1701 218" stroke-width="5.5" filter="url(#grain)"/>
+<path d="M1674 180 C 1690 177, 1704 174, 1718 171" stroke-width="6" filter="url(#grain)"/>
+<path d="M1672 202 C 1688 199, 1702 196, 1716 193" stroke-width="6" filter="url(#grain)"/>
+</svg>
+</body></html>

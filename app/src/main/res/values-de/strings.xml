@@ -1,0 +1,171 @@
+<resources>
+    <string name="back">Zurück</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="done">Fertig</string>
+    <string name="more_actions">Weitere Aktionen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="licenses">Lizenzen</string>
+
+    <string name="library_empty_count">Noch keine Stücke</string>
+    <plurals name="pieces">
+        <item quantity="one">%d Stück</item>
+        <item quantity="other">%d Stücke</item>
+    </plurals>
+    <string name="menu_open_pdf">PDF-Datei öffnen</string>
+    <string name="menu_open_musicxml">MusicXML-Datei öffnen</string>
+    <string name="menu_light">Helle Darstellung</string>
+    <string name="menu_dark">Dunkle Darstellung</string>
+    <string name="take_photo">Notenblatt fotografieren</string>
+    <string name="pick_gallery">Foto aus der Galerie wählen</string>
+    <string name="empty_title">Leg ein Notenblatt flach hin und fotografier es von oben.</string>
+    <string name="empty_body">Die App liest die Noten auf dem Handy, ohne Internet, und spielt sie dir mit Flügelklang vor. Fehler korrigierst du, indem du eine Note antippst.</string>
+    <plurals name="measures">
+        <item quantity="one">%d Takt</item>
+        <item quantity="other">%d Takte</item>
+    </plurals>
+    <string name="settings_bars_per_line">Takte je Zeile</string>
+    <string name="settings_always_2">Immer 2</string>
+    <string name="settings_2_or_3">2 oder 3</string>
+    <string name="settings_always_2_desc">Jede Zeile zeigt zwei Takte – gleichmäßig durch das ganze Stück.</string>
+    <string name="settings_2_or_3_desc">Folgt den Zeilen des Notenblatts: zwei oder drei Takte je Zeile.</string>
+
+    <string name="photo_of_page">Foto der Seite</string>
+    <string name="camera_needed">Für Fotos braucht die App die Kamera.</string>
+    <string name="camera_allow">Kamera erlauben</string>
+    <string name="capture_page">Seite %1$d</string>
+    <string name="capture_page_count">Seite %1$d · %2$d aufgenommen</string>
+    <string name="retake">Nochmal</string>
+    <string name="add_page">Weitere Seite</string>
+
+    <string name="lic_piano_title">Flügelklang</string>
+    <string name="lic_piano">Salamander Grand Piano V3 von Alexander Holm, Lizenz CC BY 3.0. Für die App gekürzt und als OGG umgewandelt.</string>
+    <string name="lic_omr_title">Notenerkennung</string>
+    <string name="lic_omr">homr von Christian Liebhardt und Mitwirkenden, Lizenz AGPL-3.0. Segmentierung nach oemer (MIT).</string>
+    <string name="lic_music_font_title">Notenschrift</string>
+    <string name="lic_music_font">Bravura von Steinberg Media Technologies, SIL Open Font License 1.1.</string>
+    <string name="lic_font_title">Schrift</string>
+    <string name="lic_font">Instrument Sans von Rodrigo Fuenzalida und Jordan Egstad, SIL Open Font License 1.1.</string>
+
+    <string name="view_score">Noten</string>
+    <string name="view_photo">Foto</string>
+    <string name="rename">Umbenennen</string>
+    <string name="discard_edits">Korrekturen verwerfen</string>
+    <string name="discard_body">Alle Korrekturen an diesem Stück werden zurückgenommen. Noten, Fingersätze und Akkordsymbole sind wieder so wie direkt nach der Erkennung.</string>
+    <string name="discard">Verwerfen</string>
+    <string name="show_original_photo">Originalfoto zeigen</string>
+    <string name="brighten_photo">Foto aufhellen</string>
+    <string name="hide_annotations">Notizen ausblenden</string>
+    <string name="show_annotations">Notizen einblenden</string>
+    <string name="delete_piece">Stück löschen</string>
+    <string name="loop_pick_first">Tippe auf den ersten Takt der Schleife.</string>
+    <string name="loop_pick_last">Jetzt auf den letzten Takt tippen.</string>
+    <string name="to_start">Zum Anfang</string>
+    <string name="loop">Schleife</string>
+    <string name="metronome">Takt</string>
+    <string name="rename_title">Stück umbenennen</string>
+    <string name="save">Speichern</string>
+    <string name="delete_title">„%1$s“ löschen?</string>
+    <string name="delete_body">Foto, erkannte Noten und Korrekturen werden entfernt.</string>
+    <string name="delete">Löschen</string>
+    <string name="keep">Behalten</string>
+    <string name="pause">Anhalten</string>
+    <string name="play">Abspielen</string>
+    <string name="left_hand">Linke Hand</string>
+    <string name="right_hand">Rechte Hand</string>
+    <string name="hand_mute">%1$s stumm schalten</string>
+    <string name="hand_unmute">%1$s einschalten</string>
+    <string name="hand_left_short">Links</string>
+    <string name="hand_right_short">Rechts</string>
+    <string name="hand_muted">stumm</string>
+    <string name="slower">Langsamer</string>
+    <string name="faster">Schneller</string>
+    <string name="tempo_from_sheet">Tempo vom Blatt</string>
+    <string name="original_photo">Originalfoto</string>
+
+    <string name="rest">Pause</string>
+    <string name="dotted_fmt">punktierte %1$s</string>
+    <string name="note_whole">Ganze</string>
+    <string name="note_half">Halbe</string>
+    <string name="note_quarter">Viertel</string>
+    <string name="note_eighth">Achtel</string>
+    <string name="note_sixteenth">Sechzehntel</string>
+    <string name="note_32nd">Zweiunddreißigstel</string>
+    <plurals name="chord_notes">
+        <item quantity="one">Akkord mit %d Ton</item>
+        <item quantity="other">Akkord mit %d Tönen</item>
+    </plurals>
+    <string name="right_hand_lower">rechte Hand</string>
+    <string name="left_hand_lower">linke Hand</string>
+    <string name="step_up">Einen Ton höher</string>
+    <string name="step_down">Einen Ton tiefer</string>
+    <string name="acc_flat">Erniedrigt</string>
+    <string name="acc_natural">Ohne Vorzeichen</string>
+    <string name="acc_sharp">Erhöht</string>
+    <string name="dotted">Punktiert</string>
+    <string name="insert_note">Note einsetzen</string>
+    <string name="add_note">Ton dazu</string>
+    <string name="remove_note">Ton weg</string>
+    <string name="make_rest">Zur Pause machen</string>
+    <string name="accent">Akzent</string>
+    <string name="tie">Haltebogen</string>
+    <string name="undo">Rückgängig</string>
+    <string name="octave_up">Eine Oktave höher</string>
+    <string name="octave_down">Eine Oktave tiefer</string>
+    <string name="move_earlier">Früher</string>
+    <string name="move_later">Später</string>
+    <string name="other_hand">Andere Hand</string>
+    <string name="edit_hint">Note gedrückt halten und nach oben oder unten ziehen ändert die Tonhöhe. Auf einer leeren Stelle im System gedrückt halten setzt dort eine Note.</string>
+    <string name="redo">Wiederholen</string>
+    <string name="measure_missing">%1$s: %2$s fehlt</string>
+    <string name="measure_extra">%1$s: %2$s zu viel</string>
+    <string name="pedal_down">Pedal treten</string>
+    <string name="pedal_up">Pedal lösen</string>
+
+    <string name="photographed_sheet">Fotografiertes Notenblatt</string>
+    <string name="rec_failed">Das hat nicht geklappt</string>
+    <string name="try_again">Nochmal versuchen</string>
+    <string name="reading_notes">Noten werden gelesen</string>
+    <string name="reading_notes_page">Noten werden gelesen · %1$s</string>
+    <plurals name="heads_found">
+        <item quantity="one">%1$d Notenköpfe in %2$d Zeile gefunden</item>
+        <item quantity="other">%1$d Notenköpfe in %2$d Zeilen gefunden</item>
+    </plurals>
+    <string name="progress_of">%1$d von %2$d</string>
+    <string name="rec_hint">Dauert etwa eine Minute. Alles bleibt auf dem Handy.</string>
+    <string name="rec_hint_pages">Dauert etwa eine Minute je Seite. Alles bleibt auf dem Handy.</string>
+    <string name="phase_prepare">Foto vorbereiten</string>
+    <string name="phase_segment">Notenlinien und Zeichen finden</string>
+    <string name="phase_staffs">Notenzeilen ordnen</string>
+    <string name="phase_read">Noten lesen</string>
+    <string name="phase_write">Stück zusammensetzen</string>
+    <string name="page_of">Seite %1$d von %2$d</string>
+    <plurals name="pages_skipped">
+        <item quantity="one">Seite %1$s hat keine erkennbaren Noten und wurde übersprungen.</item>
+        <item quantity="other">Seiten %1$s haben keine erkennbaren Noten und wurden übersprungen.</item>
+    </plurals>
+    <string name="untitled_fmt">Notenblatt vom %1$s</string>
+
+    <string name="err_generic_short">Beim Lesen der Noten ist etwas schiefgegangen. Bitte noch einmal versuchen.</string>
+    <string name="err_no_notes">Auf dem Foto wurden keine Noten gefunden. Fotografiere das Blatt gerade von oben und gut ausgeleuchtet.</string>
+    <string name="err_staff">Die Notenzeilen ließen sich nicht sicher erkennen. Ein schärferes, gerades Foto hilft meistens.</string>
+    <string name="err_memory">Für dieses Foto reichte der Arbeitsspeicher nicht. Bitte andere Apps schließen und noch einmal versuchen.</string>
+    <string name="err_generic">Beim Lesen der Noten ist etwas schiefgegangen. Bitte noch einmal versuchen – ein gerades, gut ausgeleuchtetes Foto hilft.</string>
+    <string name="err_16k">Auf diesem Gerät kann die Notenerkennung noch nicht laufen: Es arbeitet mit 16-KB-Speicherseiten, für die es die nötigen Bildverarbeitungs-Bausteine noch nicht gibt. Bereits erkannte Stücke und MusicXML-Dateien lassen sich trotzdem abspielen.</string>
+    <string name="err_pdf">Die PDF-Datei ließ sich nicht öffnen.</string>
+    <string name="err_camera">Die Kamera ließ sich nicht starten.</string>
+    <string name="err_photo_save">Das Foto ließ sich nicht speichern.</string>
+
+    <!-- NoteScan Pro -->
+    <string name="pro_lead">Einmaliger Kauf, kein Abo. Fotografieren, Abspielen und Korrigieren bleiben kostenlos.</string>
+    <string name="pro_f_pages">Mehrere Seiten am Stück und PDF-Dateien</string>
+    <string name="pro_f_hands">Eine Hand stumm schalten</string>
+    <string name="pro_f_loop">Takte in Schleife spielen</string>
+    <string name="pro_f_tempo">Tempo ändern, Metronom</string>
+    <string name="pro_buy">Für %1$s freischalten</string>
+    <string name="pro_buy_noprice">Freischalten</string>
+    <string name="pro_restore">Kauf wiederherstellen</string>
+    <string name="pro_later">Nicht jetzt</string>
+    <string name="pro_unavailable">Der Kauf ist nur über Google Play möglich.</string>
+    <string name="pro_none_found">Für dieses Google-Konto wurde kein Kauf gefunden.</string>
+    <string name="pro_thanks">NoteScan Pro ist freigeschaltet. Danke!</string>
+</resources>

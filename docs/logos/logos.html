@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>NoteScan Logos</title>
+<style>
+  @font-face { font-family: Bravura; src: url("../../app/src/main/assets/fonts/Bravura.otf"); }
+  @font-face { font-family: Inst; src: url("../../app/src/main/res/font/instrument_sans.ttf"); font-weight: 400 700; font-stretch: 75% 100%; }
+  :root { --ink: #16181D; --ink2: #5D6370; --kobalt: #2B4BDB; --kobalt-d: #8297FF; --bg: #F2F3F5; --paper: #FFFFFF; --dark: #0E1014; --dark2: #171A20; --light: #ECEEF2; }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--bg); font-family: Inst, sans-serif; color: var(--ink); padding: 40px; width: 1400px; }
+  h1 { font: 620 34px Inst; font-variation-settings: "wdth" 78; letter-spacing: -0.4px; margin-bottom: 6px; }
+  .sub { color: var(--ink2); font-size: 16px; margin-bottom: 28px; }
+  .card { background: var(--paper); border-radius: 22px; padding: 26px 30px; margin-bottom: 22px; display: grid; grid-template-columns: 1fr 170px 170px; gap: 28px; align-items: center; }
+  .label { grid-column: 1 / -1; display: flex; gap: 12px; align-items: baseline; }
+  .num { font: 700 15px Inst; color: var(--kobalt); }
+  .name { font: 620 21px Inst; font-variation-settings: "wdth" 78; }
+  .why { color: var(--ink2); font-size: 15px; }
+  .word { font: 620 92px Inst; font-variation-settings: "wdth" 78; letter-spacing: -1.5px; color: var(--ink); white-space: nowrap; line-height: 1; padding: 22px 0 30px; }
+  .icon { width: 170px; height: 170px; border-radius: 40px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+  .icon.l { background: var(--bg); }
+  .icon.d { background: var(--dark); }
+  .k { color: var(--kobalt); }
+  .icon.d .k { color: var(--kobalt-d); }
+  .icon.d .ink { color: var(--light); fill: var(--light); }
+  .bra { font-family: Bravura; font-weight: normal; letter-spacing: 0; }
+  svg { display: block; }
+</style>
+</head>
+<body>
+<h1>NoteScan – fünf Logo-Entwürfe</h1>
+<div class="sub">Buchstaben aus Notenzeichen (Schrift Bravura) mit der App-Schrift Instrument Sans, in den App-Farben Lacktiefschwarz und Kobalt.</div>
+
+<!-- 1 Coda als Fadenkreuz -->
+<div class="card">
+  <div class="label"><span class="num">01</span><span class="name">Fadenkreuz</span><span class="why">Das „o“ ist das Coda-Zeichen ⊕ – sieht aus wie der Sucher einer Kamera.</span></div>
+  <div class="word">N<svg width="77" height="92" viewBox="0 0 77 92" style="display:inline-block; overflow:visible; margin:0 2px 0 3px;"><text x="0.3" y="95" font-family="Bravura" font-size="80" fill="#2B4BDB">&#xE048;</text></svg>teScan</div>
+  <div class="icon l"><svg width="170" height="170"><text x="25.6" y="131.3" font-family="Bravura" font-size="125" fill="#2B4BDB">&#xE048;</text></svg></div>
+  <div class="icon d"><svg width="170" height="170"><text x="25.6" y="131.3" font-family="Bravura" font-size="125" fill="#8297FF">&#xE048;</text></svg></div>
+</div>
+
+<!-- 2 Violinschlüssel als S -->
+<div class="card">
+  <div class="label"><span class="num">02</span><span class="name">Schlüssel-S</span><span class="why">Das „S“ ist ein Violinschlüssel; im Symbol sitzt er im Sucher, eine Scanlinie läuft durch.</span></div>
+  <div class="word">Note<span class="bra k" style="font-size:112px; position:relative; top:14px; margin:0 -2px 0 2px;">&#xE050;</span>can</div>
+  <div class="icon l">
+    <svg width="170" height="170" viewBox="0 0 170 170" style="position:absolute;inset:0">
+      <g fill="none" stroke="#16181D" stroke-width="7" stroke-linecap="round" class="ink"><path d="M34 58V34h24M112 34h24v24M136 112v24h-24M58 136H34v-24"/></g>
+      <rect x="26" y="96" width="118" height="5" rx="2.5" fill="#2B4BDB"/>
+    </svg>
+    <svg width="170" height="170" style="position:absolute;inset:0"><text x="62.5" y="99.7" font-family="Bravura" font-size="67" fill="#16181D">&#xE050;</text></svg>
+  </div>
+  <div class="icon d">
+    <svg width="170" height="170" viewBox="0 0 170 170" style="position:absolute;inset:0">
+      <g fill="none" stroke="#ECEEF2" stroke-width="7" stroke-linecap="round"><path d="M34 58V34h24M112 34h24v24M136 112v24h-24M58 136H34v-24"/></g>
+      <rect x="26" y="96" width="118" height="5" rx="2.5" fill="#8297FF"/>
+    </svg>
+    <svg width="170" height="170" style="position:absolute;inset:0"><text x="62.5" y="99.7" font-family="Bravura" font-size="67" fill="#ECEEF2">&#xE050;</text></svg>
+  </div>
+</div>
+
+<!-- 3 Ganze Note als o, Scanlinie -->
+<div class="card">
+  <div class="label"><span class="num">03</span><span class="name">Notenkopf</span><span class="why">Das „o“ ist eine ganze Note auf einer Notenlinie – die Linie wird zur Scanlinie in Kobalt.</span></div>
+  <div class="word">N<svg width="54" height="92" viewBox="0 0 54 92" style="display:inline-block; overflow:visible; margin:0 6px 0 7px;"><rect x="-6" y="66" width="66" height="5" rx="2.5" fill="#2B4BDB"/><text x="1.7" y="68.5" font-family="Bravura" font-size="120" fill="#16181D">&#xE0A2;</text></svg>teScan</div>
+  <div class="icon l">
+    <svg width="170" height="170" viewBox="0 0 170 170" style="position:absolute;inset:0"><g fill="#16181D" opacity=".18"><rect x="0" y="45" width="170" height="3"/><rect x="0" y="65" width="170" height="3"/><rect x="0" y="105" width="170" height="3"/><rect x="0" y="125" width="170" height="3"/></g><rect x="0" y="84" width="170" height="5" fill="#2B4BDB"/></svg>
+    <svg width="170" height="170" style="position:absolute;inset:0"><text x="42.8" y="86.5" font-family="Bravura" font-size="200" fill="#16181D">&#xE0A2;</text></svg>
+  </div>
+  <div class="icon d">
+    <svg width="170" height="170" viewBox="0 0 170 170" style="position:absolute;inset:0"><g fill="#ECEEF2" opacity=".18"><rect x="0" y="45" width="170" height="3"/><rect x="0" y="65" width="170" height="3"/><rect x="0" y="105" width="170" height="3"/><rect x="0" y="125" width="170" height="3"/></g><rect x="0" y="84" width="170" height="5" fill="#8297FF"/></svg>
+    <svg width="170" height="170" style="position:absolute;inset:0"><text x="42.8" y="86.5" font-family="Bravura" font-size="200" fill="#ECEEF2">&#xE0A2;</text></svg>
+  </div>
+</div>
+
+<!-- 4 Dynamik-Kürzel ns -->
+<div class="card">
+  <div class="label"><span class="num">04</span><span class="name">Dynamik-Kürzel</span><span class="why">„n“ und „s“ aus den Dynamikzeichen (wie in „sfz“), dahinter eine Crescendo-Gabel als Scanstrahl.</span></div>
+  <div class="word"><span class="bra" style="font-size:170px;">&#xE526;</span>ote<span class="bra" style="font-size:170px; margin-left:3px;">&#xE524;</span>ca<span class="bra" style="font-size:170px;">&#xE526;</span><svg width="78" height="44" viewBox="0 0 78 44" style="display:inline-block; margin-left:16px; vertical-align:4px;"><path d="M74 4L6 22l68 18" fill="none" stroke="#2B4BDB" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  <div class="icon l"><svg width="170" height="170" style="position:absolute;inset:0"><text x="22" y="98" font-family="Bravura" font-size="236" fill="#16181D">&#xE526;&#xE524;</text></svg><svg width="58" height="34" viewBox="0 0 58 34" style="position:absolute; right:22px; bottom:16px;"><path d="M54 4L5 17l49 13" fill="none" stroke="#2B4BDB" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  <div class="icon d"><svg width="170" height="170" style="position:absolute;inset:0"><text x="22" y="98" font-family="Bravura" font-size="236" fill="#ECEEF2">&#xE526;&#xE524;</text></svg><svg width="58" height="34" viewBox="0 0 58 34" style="position:absolute; right:22px; bottom:16px;"><path d="M54 4L5 17l49 13" fill="none" stroke="#8297FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+</div>
+
+<!-- 5 Balken-N -->
+<div class="card">
+  <div class="label"><span class="num">05</span><span class="name">Balken-N</span><span class="why">Das „N“ sind zwei Achtelnoten: Hälse als Senkrechte, der Balken als Diagonale, die Köpfe als Serifen.</span></div>
+  <div class="word"><svg width="64" height="74" viewBox="0 0 100 116" style="display:inline-block; vertical-align:-4px; margin-right:2px; overflow:visible;">
+      <ellipse cx="22" cy="100" rx="17" ry="12" transform="rotate(-22 22 100)" fill="#16181D"/>
+      <rect x="31" y="6" width="8" height="92" fill="#16181D"/>
+      <polygon points="31,6 39,6 69,110 61,110" fill="#2B4BDB"/>
+      <rect x="61" y="18" width="8" height="92" fill="#16181D"/>
+      <ellipse cx="78" cy="16" rx="17" ry="12" transform="rotate(-22 78 16)" fill="#16181D"/>
+    </svg>oteScan</div>
+  <div class="icon l"><svg width="120" height="140" viewBox="0 0 100 116">
+      <ellipse cx="22" cy="100" rx="17" ry="12" transform="rotate(-22 22 100)" fill="#16181D"/>
+      <rect x="31" y="6" width="8" height="92" fill="#16181D"/>
+      <polygon points="31,6 39,6 69,110 61,110" fill="#2B4BDB"/>
+      <rect x="61" y="18" width="8" height="92" fill="#16181D"/>
+      <ellipse cx="78" cy="16" rx="17" ry="12" transform="rotate(-22 78 16)" fill="#16181D"/>
+    </svg></div>
+  <div class="icon d"><svg width="120" height="140" viewBox="0 0 100 116">
+      <ellipse cx="22" cy="100" rx="17" ry="12" transform="rotate(-22 22 100)" fill="#ECEEF2"/>
+      <rect x="31" y="6" width="8" height="92" fill="#ECEEF2"/>
+      <polygon points="31,6 39,6 69,110 61,110" fill="#8297FF"/>
+      <rect x="61" y="18" width="8" height="92" fill="#ECEEF2"/>
+      <ellipse cx="78" cy="16" rx="17" ry="12" transform="rotate(-22 78 16)" fill="#ECEEF2"/>
+    </svg></div>
+</div>
+</body>
+</html>

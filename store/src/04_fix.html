@@ -1,0 +1,20 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="store.css">
+<style>
+.txt { position: absolute; left: 80px; right: 80px; top: 120px; }
+.txt .sub { margin-top: 30px; }
+.phone { --w: 520px; left: 70px; top: 700px; transform: rotate(-4deg); }
+.card { position: absolute; z-index: 7; right: 46px; top: 1350px; width: 700px; border-radius: 44px; overflow: hidden; background: var(--surface);
+  box-shadow: 0 50px 110px rgba(20,24,50,.28), 0 0 0 3px var(--accent); }
+.card img { width: 100%; display: block; }
+.ring { position: absolute; z-index: 6; left: 111px; top: 1121px; width: 120px; height: 120px; border-radius: 50%; border: 6px solid var(--accent);
+  box-shadow: 0 0 0 10px rgba(43,75,219,.18); }
+.line { position: absolute; z-index: 6; left: 214px; top: 1222px; width: 170px; height: 6px; background: var(--accent); transform-origin: left center; transform: rotate(48deg); border-radius: 3px; }
+</style></head><body>
+<div class="txt">
+  <div class="h">Correct<br><span class="hl">misread notes.</span></div>
+  <div class="sub">Long-press a note to change its pitch, accidental, length or pedal.</div>
+</div>
+<div class="phone" data-shot="img/top.png"></div>
+<div class="ring"></div><div class="line"></div>
+<div class="card"><img src="img/edit_panel.png"></div>
+<script src="store.js"></script></body></html>

@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="store.css">
+<style>
+body { background: radial-gradient(900px 700px at 85% 70%, rgba(43,75,219,.38), transparent 70%), radial-gradient(700px 500px at 0% 100%, rgba(43,75,219,.18), transparent 70%), var(--night); }
+.logo { position: absolute; left: 80px; top: 92px; height: 74px; }
+.txt { position: absolute; left: 80px; top: 238px; right: 70px; }
+.txt .h { font-size: 128px; }
+.txt .sub { margin-top: 34px; max-width: 860px; }
+.sheet { position: absolute; left: -120px; top: 860px; width: 700px; transform: rotate(-9deg); border-radius: 6px;
+  box-shadow: 0 40px 90px rgba(0,0,0,.55); filter: saturate(.9); }
+.phone { --w: 560px; left: 430px; top: 760px; transform: rotate(5deg); }
+.glow { position: absolute; left: 0; right: 0; bottom: 0; height: 300px; background: linear-gradient(rgba(14,16,20,0), rgba(14,16,20,.92) 85%); }
+.keys { left: -20px; right: -20px; bottom: -40px; height: 210px; transform: perspective(900px) rotateX(38deg); transform-origin: bottom; opacity: .95; }
+.keys .w { background: #1a1d24; box-shadow: inset 0 -8px 0 rgba(0,0,0,.4); }
+.keys .b { background: #050608; }
+</style></head><body class="on-dark">
+<img class="logo" src="logo_long_dark.svg">
+<div class="txt">
+  <div class="h">Scan sheets.<br><span class="hl">Hear the music.</span></div>
+  <div class="sub">Photograph the page. NoteScan reads the notes and plays them back.</div>
+</div>
+<img class="sheet" src="img/sheet_flat.jpg">
+<div class="phone" data-shot="img/play.png"></div>
+<div class="glow"></div>
+
+<script src="store.js"></script></body></html>

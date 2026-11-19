@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App-Symbol einfarbig (Android-Designs mit Systemfarben), Hals frei vom S. Erzeugt mit tools/make_logo_res.py aus Optik/Logo Icon.svg – nicht von Hand ändern. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <group android:scaleX="0.22080" android:scaleY="0.22080" android:translateX="13.880" android:translateY="13.659">
+        <group>
+            <clip-path android:pathData="M0,0H168.4V368.5H0Z M204.3,0H368.5V368.5H204.3Z" />
+            <path android:fillColor="#FFFFFFFF" android:pathData="M191.6,279.5c.2-4.9,0-9.9,0-14.9,48.7-5.1,38.2-51.3,0-64.5.2-10.1,1.4-20.8,1.7-31.4,27.6,11.8,74.2,35.8,62,72.8-8.2,24.8-39.3,38.5-63.7,38.1Z" />
+            <path android:fillColor="#FFFFFFFF" android:pathData="M183.3,82.6c-.2,4.9.3,10,0,14.9-46.1,9.3-45.1,49.9-1.7,62.9-.2,10.4-1.5,21.7-1.7,31.4-23.8-10.7-66-27.1-64.6-58.8,1.2-29.2,42.2-49,67.9-50.4Z" />
+            <path android:fillColor="#FFFFFFFF" android:pathData="M178.4,279.5c-30.6,1.1-83.6-22.7-66.5-60.7,10.4-22.9,53.9-27.3,63.1-2.2-58.8-8.4-43.5,50.9,5,48-.1,5.6-1.5,10.6-1.7,14.9Z" />
+            <path android:fillColor="#FFFFFFFF" android:pathData="M193.7,82.6c28.8-2.9,64.4,18.5,48.9,50.2-8.2,16.8-41.7,28.2-47.7,4.4,33-2.4,35.7-39,0-39.7,0-4.9-1.2-12.4-1.2-14.9Z" />
+        </group>
+        <path android:fillColor="#FFFFFFFF" android:pathData="M100.6,292.7 L124.6,292.7 L125.2,307.6 L93.2,307.6 L84.1,296.8 L84.1,268.7 L100,268.5 L100.6,292.7Z" />
+        <path android:fillColor="#FFFFFFFF" android:pathData="M100.6,72.6 L124.6,72.6 L125.2,57.8 L93.2,57.8 L84.1,68.5 L84.1,96.6 L100,96.8 L100.6,72.6Z" />
+        <path android:fillColor="#FFFFFFFF" android:pathData="M262.8,292.7 L238.8,292.7 L238.2,307.6 L270.2,307.6 L279.3,296.8 L279.3,268.7 L263.4,268.5 L262.8,292.7Z" />
+        <path android:fillColor="#FFFFFFFF" android:pathData="M262.8,72.6 L238.8,72.6 L238.2,57.8 L270.2,57.8 L279.3,68.5 L279.3,96.6 L263.4,96.8 L262.8,72.6Z" />
+        <path android:fillColor="#FFFFFFFF" android:pathData="M194.9,315.7c-3.6,11.9-17.8,19.5-29.7,19.2-24-.7-28.3-23.7-8.6-35.5,9.8-5.9,25.9-7,34.8,1.1" />
+        <path android:fillColor="#FFFFFFFF" android:pathData="M177.8,65.8h17.1v249.5h-17.1z" />
+    </group>
+</vector>
