@@ -1,3 +1,5 @@
+> **Umgezogen / Moved:** Der Quellcode wird jetzt unter <https://github.com/NiceDevelopments/notescan> gepflegt; dieses Repository wird nicht mehr aktualisiert. The source code now lives at https://github.com/NiceDevelopments/notescan; this repository is no longer updated.
+
 # NoteScan
 
 Android app that reads piano sheet music from a photo and plays it back with a grand piano sound.
